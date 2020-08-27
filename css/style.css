@@ -1,0 +1,118 @@
+body{width: 100%;}
+*{ box-sizing: border-box;}
+#navUn{
+    position: fixed;
+    width: 95%;
+    z-index: 100;
+}
+#listUn{
+    width: 100%;
+    background-color: white;
+}  
+#navUn > img{
+    width: 20px;
+    position: absolute;
+    right: 0;
+
+}
+#listeUn > li{
+    list-style-type: none;
+    padding: 5px;
+    background-color: white;
+}
+#listeUn > li > a{
+    text-decoration: none;
+    color: black;
+}
+.conteneur h1{
+    position: relative;
+    top: 211px;
+    z-index: 100;
+    margin: auto;
+    color: white;
+    font-weight: bolder;
+    font-size: 41px;
+    text-align: center;
+}
+.conteneur h2{
+    position: relative;
+    top: 230px;
+    z-index: 100;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.conteneur{
+    position: relative;
+    top: -94px;
+}
+.conteneur img {
+    width: 100%;
+    
+}
+.carousel-item > img{
+    overflow: hidden;
+}
+.navDeux{
+    background-color: RGBa(0, 0, 0, 0.3);
+    position: relative;
+    top: -95px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navDeux > select, .navDeux > input{
+    margin: 10px
+}
+.bouton{
+    background-color: rgba(17, 238, 124, 1);
+    color: white;
+    margin: 10px;
+    border: none;
+}
+.navDeux > input{
+    height: 70%;
+}
+
+main{     
+    width: 80%;
+    margin: auto;
+}
+.filtrePage{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.voiture{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.voitutre > .carousel-inner > img{
+    width: 70%;
+}
+.donnerArticle{
+    width: 50%;
+}
+.carousel-control-prev-icon{
+    color: black;
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer> img{
+    width: 20%;
+}
+.footer > p{
+    margin-left: 2%;
+} 
